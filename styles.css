@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:visited, a:link {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    padding-left: 60px;
+}
+
+main .titulo {
+    padding: 20px 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.dio_bar {
+    display: flex;
+}
+
+.dio_bar .dio_channel {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.dio_bar .dio_bar_bold {
+    color: black;
+    font-weight: bold;
+}
+
+.dio_bar .dio_channel .subscribles {
+    color: #515151;
+}
+
+.dio_bar button {
+    color: white;
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.dio_bar .button {
+    padding-right: 30px;
+}
+
+.dio_bar .liked {
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.dio_bar .liked .dio_bar_bold {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.dio_bar .unliked {
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.dio_bar .unliked .dio_bar_bold {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.dio_bar .share {
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.dio_bar .share .dio_bar_bold {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.dio_bar .download {
+    display: flex;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.dio_bar .download .dio_bar_bold {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.total_views {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.description {
+    padding-top: 20px;
+    color: #515151;
+    width: 37rem;
+}
+
+.list .list_image {
+    display: flex;
+    padding: 0px 0px 20px 20px;
+    max-width: 380px;
+}
+
+.list .list_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.list .list_description .list_title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.list .list_description .list_status, .list_channel {
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+}
+
